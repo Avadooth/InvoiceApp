@@ -64,7 +64,7 @@ function InvoiceForm() {
       const sgst = parseFloat(item.SGST) || 0;
       const total = parseFloat(item.Total) || 0;
 
-      acc.amount += amount;
+      acc.amount += amount ;
       acc.cgst += cgst;
       acc.sgst += sgst;
       acc.total += total;
